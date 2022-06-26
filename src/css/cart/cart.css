@@ -1,0 +1,128 @@
+#main {
+  height: 80px;
+  background-color: white;
+}
+#main .main {
+  height: 80px;
+  padding: 11px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-family: tahoma, arial, "Hiragino Sans GB", '宋体', sans-serif;
+}
+#main .main .cart-logo {
+  display: block;
+  margin-left: -26px;
+  padding-top: 58px;
+  width: 142px;
+  height: 0;
+  overflow: hidden;
+  text-indent: -9999px;
+  background-image: url(./TB176rg4VP7gK0jSZFjXXc5aXXa-286-118.png);
+  background-size: 142px 58px;
+}
+#main .main .cart-logo span {
+  background-image: url(//gw.alicdn.com/tfs/TB176rg4VP7gK0jSZFjXXc5aXXa-286-118.png);
+  background-size: 142px 58px;
+}
+#main .main .search {
+  border-radius: 21px;
+  margin-top: 8px;
+  position: relative;
+}
+#main .main .search .search-panel-fields {
+  width: 424px;
+  height: 42px;
+  background-color: #ebebeb;
+  border-radius: 21px;
+  position: relative;
+}
+#main .main .search .search-panel-fields .search-button {
+  width: 81px;
+  height: 38px;
+}
+#main .main .search .search-panel-fields .search-button .btn-search {
+  width: 81px;
+  height: 38px;
+  border-radius: 38px;
+  color: #fff;
+  background-position: 0 0;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #ff5000;
+  cursor: pointer;
+  border: none;
+  margin-left: 341px;
+  margin-top: 2px;
+  font-family: tahoma, arial, "Hiragino Sans GB", '宋体', sans-serif;
+}
+#main .main .search .search-panel-fields .search-input .input-text {
+  width: 227px;
+  height: 42px;
+  position: absolute;
+  top: 0px;
+  right: 84px;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+#main .main .search .ks-switchable-nav {
+  width: 106px;
+  height: 42px;
+  background-color: #f5f5f5;
+  position: absolute;
+  top: 0px;
+  border-radius: 21px 0 0 21px;
+  text-align: center;
+}
+#main .main .search .ks-switchable-nav .icon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main .main .search .ks-switchable-nav .fdj {
+  background: url(./O1CN01foF6Zz1MxVEH37Mw6_!!6000000001501-2-tps-37-37.png);
+}
+#main .main .search .ks-switchable-nav .J_SearchTab {
+  display: inline;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 40px;
+  color: black;
+  margin: 0px 5px;
+}
+#main .main .search .ks-switchable-nav .icon-jiantou-xia {
+  font-size: 20px;
+}
+#main .main .search .ks-switchable-nav .search-x {
+  width: 106px;
+  background-color: #f5f5f5;
+  position: relative;
+  z-index: 10;
+  display: none;
+}
+#main .main .search .ks-switchable-nav .search-x .J_SearchTab-tm,
+#main .main .search .ks-switchable-nav .search-x .J_SearchTab-dp {
+  width: 106px;
+  height: 42px;
+  background-color: #f5f5f5;
+  text-align: center;
+  line-height: 42px;
+  font-size: 12px;
+}
+#main .main .search .ks-switchable-nav .search-x .J_SearchTab-tm a,
+#main .main .search .ks-switchable-nav .search-x .J_SearchTab-dp a {
+  color: black;
+}
+#main .main .search .ks-switchable-nav .search-x p:hover {
+  background-color: #FFF;
+}
+#main .main .search .ks-switchable-nav .search-x p:hover a {
+  color: #ff5000;
+}
+#main .main .search .ks-switchable-nav:hover {
+  border-radius: 21px 0 0 0;
+}
+#main .main .search .ks-switchable-nav:hover .search-x {
+  display: block;
+}

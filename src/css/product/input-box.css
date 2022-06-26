@@ -1,0 +1,33 @@
+@charset 'utf-8';
+#input-box .wrapper .search-box {
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 28px;
+}
+#input-box .wrapper .search-box img {
+  width: 314px;
+  height: 40px;
+}
+#input-box .wrapper .search-box div {
+  position: relative;
+}
+#input-box .wrapper .search-box div input {
+  width: 388px;
+  height: 36px;
+  border: 3px solid #ff1655;
+  font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+  padding: 5px 3px 5px 5px;
+}
+#input-box .wrapper .search-box div .search-button {
+  display: inline-block;
+  width: 90px;
+  height: 36px;
+  background: linear-gradient(to right, #ff1655 20%, #ff5295 80%);
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 36px;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+@charset 'utf-8';
+#category .wrapper ul {
+  height: 37px;
+  border-top: 0 solid #eee;
+  border-bottom: 1px solid #7a45e5;
+  line-height: 37px;
+  background-color: #fff;
+  padding-left: 46px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+#category .wrapper ul li {
+  color: #404040;
+  font-size: 14px;
+}
+#category .wrapper ul li:nth-of-type(10) {
+  width: 150px;
+}

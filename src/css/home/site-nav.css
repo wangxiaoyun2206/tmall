@@ -1,0 +1,145 @@
+@charset 'utf-8';
+#site-nav {
+  width: 100%;
+  height: 27px;
+  background-color: #f2f2f2;
+}
+#site-nav .site-nav-container {
+  width: 990px;
+  display: flex;
+  margin: 0 auto;
+  text-align: 26px;
+  font-size: 12px;
+  line-height: 26px;
+  justify-content: space-between;
+}
+#site-nav .site-nav-container .nav-left {
+  width: 282px;
+  display: flex;
+  justify-content: space-between;
+}
+#site-nav .site-nav-container .nav-left .icon-shouye1 {
+  font-size: 14px;
+  color: red;
+}
+#site-nav .site-nav-container .nav-left span:hover {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#site-nav .site-nav-container span,
+#site-nav .site-nav-container a,
+#site-nav .site-nav-container li,
+#site-nav .site-nav-container p {
+  color: #999;
+}
+#site-nav .site-nav-container .nav-right {
+  position: relative;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu {
+  width: 560px;
+  display: flex;
+  justify-content: space-between;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu .icon-gouwuchekong,
+#site-nav .site-nav-container .nav-right .nav-right-menu .icon-shouji {
+  font-size: 14px;
+  color: red;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu span {
+  padding: 10px;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu span:hover {
+  color: red;
+  cursor: pointer;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(1) {
+  width: 68px;
+  height: 60px;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(1) .menu-myTaoBao-hide {
+  width: 94px;
+  background-color: white;
+  padding: 10px;
+  display: none;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(1):hover {
+  background-color: white;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(1):hover span {
+  color: red;
+  text-decoration: underline;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(1):hover .icon-xiala1 {
+  transform: rotateX(180deg);
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(1):hover .menu-myTaoBao-hide {
+  display: block;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(3) {
+  width: 56px;
+  height: 60px;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(3) .menu-favorite-hide {
+  width: 94px;
+  background-color: white;
+  padding: 10px;
+  display: none;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(3):hover {
+  background-color: white;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(3):hover span {
+  color: red;
+  text-decoration: underline;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(3):hover .icon-xiala1 {
+  transform: rotateX(180deg);
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(3):hover .menu-favorite-hide {
+  display: block;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(8) {
+  width: 68px;
+  position: relative;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(8) .menu-support-hide {
+  width: 140px;
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  top: 27px;
+  left: -72px;
+  display: none;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(8) .menu-support-hide ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(8) .menu-support-hide ul li {
+  height: 26px;
+  flex-shrink: 0;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(8):hover {
+  background-color: white;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(8):hover span {
+  color: red;
+  text-decoration: underline;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(8):hover .icon-xiala1 {
+  transform: rotateX(180deg);
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li:nth-child(8):hover .menu-support-hide {
+  display: block;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li {
+  position: relative;
+}
+#site-nav .site-nav-container .nav-right .nav-right-menu li .icon-xiala1 {
+  font-size: 8px;
+  position: absolute;
+  top: 0;
+  right: -2px;
+}

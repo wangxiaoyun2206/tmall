@@ -1,0 +1,184 @@
+#header {
+  background: #f5f5f5;
+  font-family: tahoma, arial, "Hiragino Sans GB", '宋体', sans-serif;
+}
+.nav-wrapper {
+  height: 35px;
+  display: flex;
+  position: relative;
+}
+.nav-wrapper .nav-left {
+  width: 301px;
+  font-size: 12px;
+  color: #999;
+  flex-shrink: 0;
+  line-height: 35px;
+}
+.nav-wrapper .nav-left > a {
+  line-height: 35px;
+  color: #6C6C6C;
+}
+.nav-wrapper .nav-left .login {
+  padding-right: 7px;
+}
+.nav-wrapper .nav-left .phone-tb {
+  padding-right: 15px;
+}
+.nav-wrapper .nav-left a:hover {
+  color: #FF0036;
+}
+.nav-right {
+  width: 632px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #999;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+}
+.nav-right a {
+  height: 26px;
+  color: #999;
+}
+.nav-right .icon-jiantou-xia {
+  color: #999;
+}
+.nav-right .icon-gouwucheman {
+  color: red;
+}
+.nav-right .x {
+  width: 1px;
+  height: 14px;
+  background-color: #cdcdcd;
+}
+.nav-right .menu-ud1 {
+  width: 90px;
+  height: 85px;
+  position: absolute;
+  top: 35px;
+  left: 69px;
+  border: solid #eee;
+  border-width: 0 1px 1px;
+  padding: 12px 0px 8px;
+  display: none;
+  background-color: #ffffff;
+  line-height: 28px;
+  z-index: 2;
+  color: #6C6C6C;
+  text-align: left;
+}
+.nav-right .menu-ud1 .menu-ud1-p {
+  padding: 0px 7px;
+}
+.nav-right .menu-ud2 {
+  width: 80px;
+  height: 85px;
+  position: absolute;
+  top: 35px;
+  left: 223px;
+  border: solid #eee;
+  border-width: 0 1px 1px;
+  line-height: 20px;
+  padding: 12px 0px 4px;
+  background-color: #ffffff;
+  line-height: 28px;
+  z-index: 10;
+}
+.nav-right .menu-ud3 {
+  width: 90px;
+  height: 188px;
+  position: absolute;
+  top: 35px;
+  left: 439px;
+  border: solid #eee;
+  border-width: 0 1px 1px;
+  line-height: 20px;
+  padding: 12px 0px 8px;
+  background-color: #ffffff;
+  line-height: 28px;
+  display: none;
+  z-index: 10;
+}
+.nav-right .my-taobao,
+.nav-right .collect,
+.nav-right .mer {
+  height: 35px;
+  line-height: 35px;
+  padding: 0 6px;
+}
+.nav-right .my-taobao .menu-ud3 p,
+.nav-right .collect .menu-ud3 p,
+.nav-right .mer .menu-ud3 p {
+  padding: 0px 7px;
+}
+.nav-right .collect .menu-ud2 {
+  display: none;
+}
+.nav-right .collect .menu-ud2 p {
+  padding: 0px 7px;
+}
+.nav-right .collect .menu-ud2 p:hover {
+  background-color: #F5F5F5;
+}
+.nav-right .collect:hover {
+  background-color: #FFF;
+}
+.nav-right .collect:hover .menu-ud2 {
+  display: block;
+}
+.nav-right .my-taobao:hover {
+  background: #FFF;
+}
+.nav-right .my-taobao:hover .menu-ud1 {
+  display: block;
+}
+.nav-right .my-taobao .txt:hover {
+  color: #FF0036;
+}
+.nav-right .my-taobao .menu-ud1-p:hover {
+  background-color: #F5F5F5;
+}
+.nav-right .mer:hover {
+  background-color: #FFF;
+}
+.nav-right .mer:hover .menu-ud3 {
+  display: block;
+}
+.nav-right .mer:hover .menu-ud3 p:hover {
+  background-color: #F5F5F5;
+}
+.nav-right .ke-fu {
+  position: relative;
+  line-height: 35px;
+  padding: 0px 6px;
+}
+.nav-right .ke-fu div {
+  width: 75px;
+  position: absolute;
+  left: 0px;
+  top: 35px;
+  background-color: #FFF;
+  border: 1px solid #EEE;
+  border-top: none;
+  line-height: 28px;
+  display: none;
+  padding: 12px 0 8px;
+  z-index: 10;
+}
+.nav-right .ke-fu div p {
+  padding: 0px 4px;
+}
+.nav-right .ke-fu div p:hover {
+  background-color: #F5F5F5;
+}
+.nav-right .ke-fu:hover {
+  background-color: #FFF;
+}
+.nav-right .ke-fu:hover div {
+  display: block;
+}
+a:hover {
+  color: #FF0036;
+}

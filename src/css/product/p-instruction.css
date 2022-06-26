@@ -1,0 +1,34 @@
+@charset 'utf-8';
+#delivery {
+  margin-top: 40px;
+}
+#delivery img {
+  width: 990px;
+  height: 80px;
+}
+#p-instruction {
+  margin-top: 10px;
+}
+#p-instruction .wrapper {
+  display: flex;
+}
+#p-instruction .wrapper .left-box {
+  margin-right: 10px;
+}
+#p-instruction .wrapper .left-box .evaluate-box {
+  width: 191px;
+  height: 192px;
+  border: 1px solid #ccc;
+}
+#p-instruction .wrapper .left-box .evaluate-box img {
+  width: 190px;
+  height: 190px;
+}
+#p-instruction .wrapper .right-box {
+  width: 788px;
+}
+#p-instruction .wrapper .right-box .list {
+  width: 488px;
+  height: 48px;
+  display: flex;
+}
